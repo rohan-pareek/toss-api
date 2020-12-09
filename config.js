@@ -1,4 +1,4 @@
-const mongoURL = 'mongodb://localhost:27017/toss_db';
+const mongoURL = process.env.MONGO_URL;
 
 module.exports = {
     mongoURL
